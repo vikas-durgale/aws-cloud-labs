@@ -13,12 +13,19 @@ Portfolio projects are kept in separate repositories (links added as they ship).
 
 ## Repository structure
 aws-cloud-labs/
+
 ├── setup/ # Account baseline and local toolchain
+
 ├── terraform/ # Terraform fundamentals (planned)
+
 ├── networking/ # VPC, routing, troubleshooting labs (planned)
+
 ├── iam-security/ # IAM policy evaluation, KMS, Secrets Manager (planned)
+
 ├── compute/ # EC2, ALB, ASG, RDS (planned)
+
 ├── serverless/ # Lambda, API Gateway, DynamoDB (planned)
+
 └── operations/ # CloudWatch, Linux troubleshooting (planned)
 
 
