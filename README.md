@@ -6,36 +6,32 @@ deployable code and is torn down after use to control cost.
 
 - **Region:** ap-southeast-1 (Singapore)
 - **IaC:** Terraform, with remote state in S3 and locking (from TF-04)
-- **CI/CD:** GitHub Actions with OIDC, no long-lived AWS keys
+- **CI/CD:** GitHub Actions with OIDC, no long-lived AWS keys (planned)
 - **Access:** IAM Identity Center (SSO) only; no IAM users or access keys
 
 Portfolio projects are kept in separate repositories (links added as they ship).
 
 ## Repository structure
+
+```text
 aws-cloud-labs/
-
-├── setup/ # Account baseline and local toolchain
-
-├── terraform/ # Terraform fundamentals (planned)
-
-├── networking/ # VPC, routing, troubleshooting labs (planned)
-
-├── iam-security/ # IAM policy evaluation, KMS, Secrets Manager (planned)
-
-├── compute/ # EC2, ALB, ASG, RDS (planned)
-
-├── serverless/ # Lambda, API Gateway, DynamoDB (planned)
-
-└── operations/ # CloudWatch, Linux troubleshooting (planned)
-
+├── setup/          # Account baseline and local toolchain
+├── terraform/      # Terraform fundamentals
+├── networking/     # VPC, routing, troubleshooting labs (planned)
+├── iam-security/   # IAM policy evaluation, KMS, Secrets Manager (planned)
+├── compute/        # EC2, ALB, ASG, RDS (planned)
+├── serverless/     # Lambda, API Gateway, DynamoDB (planned)
+└── operations/     # CloudWatch, Linux troubleshooting (planned)
+```
 
 ## Lab index
 
-| Unit   | Topic                                                    | Folder   | Status |
-|--------|----------------------------------------------------------|----------|--------|
-| SET-01 | Account hardening: root MFA, Identity Center, Budgets    | `setup/` | Done   |
-| SET-02 | Local toolchain: AWS CLI SSO profile, Terraform, SSH     | —        | Done   |
-| GIT-01 | Branch → commit → PR workflow                            | —        | Done   |
+| Unit   | Topic                                                 | Folder                                         | Status |
+|--------|-------------------------------------------------------|------------------------------------------------|--------|
+| SET-01 | Account hardening: root MFA, Identity Center, Budgets | [`setup/`](setup/)                             | Done   |
+| SET-02 | Local toolchain: AWS CLI SSO profile, Terraform, SSH  | —                                              | Done   |
+| GIT-01 | Branch → commit → PR workflow                         | —                                              | Done   |
+| TF-01  | Terraform basics: S3 bucket, plan/apply/destroy       | [`terraform/01-basics/`](terraform/01-basics/) | Done   |
 
 ## Cost safety
 
