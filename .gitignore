@@ -5,6 +5,10 @@
 *.tfstate
 *.tfstate.*
 
+# Terraform saved plan files
+*.tfplan
+tfplan
+
 # Crash log files
 crash.log
 crash.*.log
