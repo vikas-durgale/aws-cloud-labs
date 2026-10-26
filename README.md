@@ -26,12 +26,13 @@ aws-cloud-labs/
 
 ## Lab index
 
-| Unit   | Topic                                                 | Folder                                         | Status |
-|--------|-------------------------------------------------------|------------------------------------------------|--------|
-| SET-01 | Account hardening: root MFA, Identity Center, Budgets | [`setup/`](setup/)                             | Done   |
-| SET-02 | Local toolchain: AWS CLI SSO profile, Terraform, SSH  | —                                              | Done   |
-| GIT-01 | Branch → commit → PR workflow                         | —                                              | Done   |
-| TF-01  | Terraform basics: S3 bucket, plan/apply/destroy       | [`terraform/01-basics/`](terraform/01-basics/) | Done   |
+| Unit   | Topic                                                 | Folder                                           | Status |
+|--------|-------------------------------------------------------|--------------------------------------------------|--------|
+| SET-01 | Account hardening: root MFA, Identity Center, Budgets | [`setup/`](setup/)                               | Done   |
+| SET-02 | Local toolchain: AWS CLI SSO profile, Terraform, SSH  | —                                                | Done   |
+| GIT-01 | Branch → commit → PR workflow                         | —                                                | Done   |
+| TF-01  | Terraform basics: S3 bucket, plan/apply/destroy       | [`terraform/01-basics/`](terraform/01-basics/)   | Done   |
+| TF-02  | Variables, locals, outputs, tfvars                    | [terraform/02-variables](terraform/02-variables) | Done |
 
 ## Cost safety
 
