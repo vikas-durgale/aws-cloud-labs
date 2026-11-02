@@ -1,3 +1,8 @@
+moved {
+  from = aws_s3_bucket_versioning.versioining_lab
+  to   = aws_s3_bucket_versioning.versioning_lab
+}
+
 resource "aws_s3_bucket" "s3_lab" {
   bucket = local.name_prefix
   tags = {
@@ -5,7 +10,7 @@ resource "aws_s3_bucket" "s3_lab" {
   }
 }
 
-resource "aws_s3_bucket_versioning" "versioining_lab" {
+resource "aws_s3_bucket_versioning" "versioning_lab" {
   bucket = aws_s3_bucket.s3_lab.id
 
   versioning_configuration {
