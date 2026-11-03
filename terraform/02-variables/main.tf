@@ -3,11 +3,6 @@ moved {
   to   = aws_s3_bucket_versioning.versioning_lab
 }
 
-import {
-  to = aws_s3_bucket.imported_bucket
-  id = local.import_bucket_name
-}
-
 resource "aws_s3_bucket" "s3_lab" {
   bucket = local.name_prefix
   tags = {
