@@ -33,7 +33,7 @@ aws-cloud-labs/
 | GIT-01 | Branch → commit → PR workflow                         | —                                                | Done   |
 | TF-01  | Terraform basics: S3 bucket, plan/apply/destroy       | [`terraform/01-basics/`](terraform/01-basics/)   | Done   |
 | TF-02  | Variables, locals, outputs, tfvars                    | [terraform/02-variables](terraform/02-variables) | Done |
-| TF-03 | [03-state](terraform/03-state/)                        | State internals, `moved` rename, drift detection/revert, `import` blocks | Done |
+| TF-03 | State internals, `moved` rename, drift detection/revert, `import` blocks                         | [03-state](terraform/03-state/) | Done |
 ## Cost safety
 
 - AWS Budgets alerts (50/80/100% actual, 100% forecast) were set before any lab.
