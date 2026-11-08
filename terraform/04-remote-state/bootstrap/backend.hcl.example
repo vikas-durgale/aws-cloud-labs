@@ -1,0 +1,1 @@
+bucket = "<project>-tfstate-<account_id>-<region>"
