@@ -35,6 +35,7 @@ aws-cloud-labs/
 | TF-02  | Variables, locals, outputs, tfvars                    | [terraform/02-variables](terraform/02-variables) | Done |
 | TF-03 | State internals, `moved` rename, drift detection/revert, `import` blocks                         | [03-state](terraform/03-state/) | Done |
 | TF-04 | Hardened S3 state bucket, migrating local state to remote, native S3 locking, lock test | [terraform/04-remote-state](terraform/04-remote-state/) | Done |
+| IAM-01 | Policy evaluation: explicit deny, identity vs bucket policies, KMS key policy, kms:ViaService | [iam/01-policy-evaluation](iam/01-policy-evaluation/) | Done |
 ## Cost safety
 
 - AWS Budgets alerts (50/80/100% actual, 100% forecast) were set before any lab.
