@@ -54,3 +54,6 @@ backend.hcl
 # macOS
 .DS_Store
 **/.DS_Store
+
+#Zip files
+*.zip*

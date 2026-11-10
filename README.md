@@ -33,6 +33,7 @@ aws-cloud-labs/
 | GIT-01 | Branch → commit → PR workflow                         | —                                                | Done   |
 | TF-01  | Terraform basics: S3 bucket, plan/apply/destroy       | [`terraform/01-basics/`](terraform/01-basics/)   | Done   |
 | TF-02  | Variables, locals, outputs, tfvars                    | [terraform/02-variables](terraform/02-variables) | Done |
+| IAM-02 | Least-privilege roles for EC2 and Lambda in Terraform | [`iam/02-least-privilege-roles`](iam/02-least-privilege-roles/) | Done |
 | TF-03 | State internals, `moved` rename, drift detection/revert, `import` blocks                         | [03-state](terraform/03-state/) | Done |
 | TF-04 | Hardened S3 state bucket, migrating local state to remote, native S3 locking, lock test | [terraform/04-remote-state](terraform/04-remote-state/) | Done |
 | IAM-01 | Policy evaluation: explicit deny, identity vs bucket policies, KMS key policy, kms:ViaService | [iam/01-policy-evaluation](iam/01-policy-evaluation/) | Done |
