@@ -37,7 +37,7 @@ aws-cloud-labs/
 | TF-03 | State internals, `moved` rename, drift detection/revert, `import` blocks                         | [03-state](terraform/03-state/) | Done |
 | TF-04 | Hardened S3 state bucket, migrating local state to remote, native S3 locking, lock test | [terraform/04-remote-state](terraform/04-remote-state/) | Done |
 | IAM-01 | Policy evaluation: explicit deny, identity vs bucket policies, KMS key policy, kms:ViaService | [iam/01-policy-evaluation](iam/01-policy-evaluation/) | Done |
-| NET-01 | VPC in Terraform | networking/01-vpc | Done |
+| NET-01 | VPC in Terraform | [networking/01-vpc](networking/01-vpc) | Done |
 
 ## Cost safety
 
